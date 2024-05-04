@@ -1,7 +1,7 @@
 # XLSX-TXT
 
-## Install MinGW: https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64-on-windows
-- Download using this direct link to the MinGW installer.
+## [Install MinGW] (https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64-on-windows)
+-  Download using this direct link to the [MinGW installer](https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe).
 -  Run the installer and follow the steps of the installation wizard. Note, MSYS2 requires 64 bit Windows 8.1 or newer.
 -  In the wizard, choose your desired Installation Folder. Record this directory for later. In most cases, the recommended directory is acceptable. The same applies when you get to setting the start menu shortcuts step. When complete, ensure the Run MSYS2 now box is checked and select Finish. A MSYS2 terminal window will then automatically open.
 -  In this terminal, install the MinGW-w64 toolchain by running the following command:
