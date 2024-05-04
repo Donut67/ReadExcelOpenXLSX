@@ -15,8 +15,13 @@
   4. Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you selected the default installation steps, the path is: C:\msys64\ucrt64\bin.
   5. Select OK to save the updated PATH. For the new PATH to be available, reopen your console windows.
 8. Check that your MinGW-w64 tools are correctly installed and available, open a new Command Prompt and type:
-  gcc --version
-  g++ --version
-  gdb --version
+```
+gcc --version
+g++ --version
+gdb --version
+```
 ## Compile:
-Use the next command: g++ -std=c++17 main.cpp -o main -lcomdlg32
+Use the next command: 
+```
+g++ -std=c++17 main.cpp -o main -lcomdlg32
+```
