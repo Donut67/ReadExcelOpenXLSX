@@ -9,11 +9,11 @@
 5. Accept the default number of packages in the toolchain group by pressing Enter.
 6. Enter Y when prompted whether to proceed with the installation.
 7. Add the path to your MinGW-w64 bin folder to the Windows PATH environment variable by using the following steps:
-  1. In the Windows search bar, type Settings to open your Windows Settings.
-  2. Search for Edit environment variables for your account.
-  3. In your User variables, select the Path variable and then select Edit.
-  4. Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you selected the default installation steps, the path is: C:\msys64\ucrt64\bin.
-  5. Select OK to save the updated PATH. For the new PATH to be available, reopen your console windows.
+  a. In the Windows search bar, type Settings to open your Windows Settings.
+  b. Search for Edit environment variables for your account.
+  c. In your User variables, select the Path variable and then select Edit.
+  d. Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you selected the default installation steps, the path is: C:\msys64\ucrt64\bin.
+  e. Select OK to save the updated PATH. For the new PATH to be available, reopen your console windows.
 8. Check that your MinGW-w64 tools are correctly installed and available, open a new Command Prompt and type:
 ```
 gcc --version
