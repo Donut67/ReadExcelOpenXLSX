@@ -332,6 +332,9 @@ public:
     void addInitial(int value) {
         _initials.push_back(value);
     }
+    void restetInitial() {
+        _initials.clear();
+    }
     void addTable(std::string name, CSVReader table) {
         _tables[name] = table;
     }
@@ -744,6 +747,7 @@ int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_li
     int lineCount = 0, last = max_lines == -1 ? 1 : max_lines, a_num = A_NUM;
     
     parser.resetTable();
+    parser.restetInitial();
     parser.addInitial(a_num);
     parser.addTable("NCLI", numTable);
 
