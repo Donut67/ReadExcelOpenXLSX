@@ -168,7 +168,7 @@ private:
         formattedValue.erase(std::remove(formattedValue.begin(), formattedValue.end(), '.'), formattedValue.end());
         std::replace(formattedValue.begin(), formattedValue.end(), ',', '.');
 
-
+        // std::cout << formattedValue << std::endl;
         if (format == 'I') return std::to_string(std::stoi(formattedValue));
         else if (format == 'F') {
             double val = std::stod(formattedValue);
@@ -196,7 +196,11 @@ private:
             size_t end_pos = value.find('#', pos + 1);
             std::string index_str = value.substr(pos + 1, end_pos - pos - 1);
             
+            // std::cout << "PRE: " << value << std::endl;
+            // std::cout << "INDEX: " << index_str << std::endl;
             std::string value_f = values[std::stoi(index_str)];
+            // std::cout << "POST: " << value_f << std::endl;
+
             return value_f;
         }
         return value;
@@ -277,9 +281,11 @@ private:
                 size_t pos = value.find('#');
                 while (pos != std::string::npos) {
                     size_t end_pos = value.find('#', pos + 1);
-                    std::string new_value = value.substr(pos, end_pos - pos + 1);
-                    value.replace(pos, end_pos - pos + 1, stov(values, new_value));
-                    pos = value.find('#', end_pos + 1);
+                    std::string new_value = stov(values, value.substr(pos, end_pos - pos + 1));
+                    size_t size = new_value.size();
+                    value.replace(pos, end_pos - pos + 1, new_value);
+                    // std::cout << value << std::endl;
+                    pos = value.find('#', pos + size + 1);
                 }
                 
                 newLine += value;
