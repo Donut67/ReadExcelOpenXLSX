@@ -158,6 +158,7 @@ private:
         oss << std::setw(4) << std::setfill('0') << std::stoi(year) + 2000;
         oss << std::setw(2) << std::setfill('0') << month;
         oss << std::setw(2) << std::setfill('0') << day;
+
         return oss.str();
     }
 
@@ -185,13 +186,18 @@ private:
             size_t pos = value.find("#@");
             size_t end_pos = value.find("#", pos + 2);
             char format = value[pos + 2];
-            std::string index_str = value.substr(pos + 3, end_pos - pos - 2);
-            return formatValue(values[std::stoi(index_str)], format);
+            std::string index_str = value.substr(pos + 3, end_pos - pos - 3);
+            // std::cout << index_str << std::endl;
+            std::string value_f = formatValue(values[std::stoi(index_str)], format);
+            // std::cout << value_f << std::endl;
+            return value_f;
         } else if (value.find("#") != std::string::npos) {
             size_t pos = value.find('#');
             size_t end_pos = value.find('#', pos + 1);
             std::string index_str = value.substr(pos + 1, end_pos - pos - 1);
-            return values[std::stoi(index_str)];
+            
+            std::string value_f = values[std::stoi(index_str)];
+            return value_f;
         }
         return value;
     }
@@ -260,8 +266,8 @@ private:
                 std::string str = line.substr(pos, line.size());
 
                 char const* digits = "0123456789";
-                std::size_t const n = str.find_first_of(digits);
-                std::size_t const m = str.find_first_not_of(digits, n);
+                std::size_t const n = pos + 2;
+                std::size_t const m = str.find('#');
                 std::string value = str.substr(n, m != std::string::npos ? m-n : m);
                 
                 newLine += std::to_string(_tables[value].getValue(stov(values, str.substr(m, str.size()))));
