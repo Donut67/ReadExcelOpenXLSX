@@ -399,7 +399,7 @@ std::wstring csvFileSelected;
 std::wstring cnfFileSelected;
 std::wstring tabFileSelected;
 
-LineFormat parser;
+// LineFormat parser;
 
 // Main Window
 int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR args, int ncmdshow) {
@@ -469,7 +469,7 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
             break;
         case GEN_MENU_OPEN:
             SelectFile(hWnd, cnfFileSelected, L"Text File\0*.TXT*\0All\0*.*\0");
-            parser = LineFormat(WStringToString(cnfFileSelected));
+            // parser = LineFormat(WStringToString(cnfFileSelected));
             break;
         case GEN_MENU_EDIT:
             if(cnfFileSelected != L"") CreateConfigEditorWindow(hWnd);
@@ -746,8 +746,7 @@ int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_li
     std::string line;
     int lineCount = 0, last = max_lines == -1 ? 1 : max_lines, a_num = A_NUM;
     
-    parser.resetTable();
-    parser.restetInitial();
+    LineFormat parser(WStringToString(cnfFileSelected));
     parser.addInitial(a_num);
     parser.addTable("NCLI", numTable);
 
