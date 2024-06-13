@@ -10,6 +10,11 @@
 #include <Windows.h>
 #include <iomanip>
 #include <locale>
+#include <codecvt>
+
+#include "json.hpp"
+
+using json = nlohmann::json;
 
 std::string wctos(wchar_t *value);
 int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_lines);
@@ -39,6 +44,19 @@ std::string WStringToString(const std::wstring& wstr){
 	str.resize(wstr.length());
 	wcstombs_s(&size, &str[0], str.size() + 1, wstr.c_str(), wstr.size());
 	return str;
+}
+
+std::wstring StringToWString(const std::string& str) {
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    return converter.from_bytes(str);
+}
+
+void save_conf_file(json file, std::string file_name) {
+    file_name = "config.json";
+    std::ofstream outFile(file_name);
+    outFile << file.dump(4);
+    outFile.flush();
+    outFile.close();
 }
 
 // Options definition
@@ -372,6 +390,9 @@ public:
 
         return new_lines;
     }
+    int get_count() {
+        return _count;
+    }
 };
 
 // Callback definition
@@ -399,6 +420,7 @@ HWND hFileSelected;
 HWND hConfSelected;
 
 CSVReader numTable;
+json configuracio;
 
 int A_NUM;
 std::wstring csvFileSelected;
@@ -438,6 +460,24 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR args, int ncmdsho
 
     MSG msg = {0};
 
+    // arxiu de configuracio
+    std::ifstream jsonFile("files/config.json");
+    jsonFile >> configuracio;
+    jsonFile.close();
+
+    std::string arxiu_previ = configuracio.value("arxiu_previ", "");
+    std::string taula_clients_previ = configuracio.value("taula_clients_previ", "");
+    std::string configuracio_previ = configuracio.value("configuracio_previ", "");
+    int ultim_assentament = configuracio.value("ultim_assentament", 0);
+
+    if(taula_clients_previ != "") numTable = CSVReader(taula_clients_previ);
+    if(configuracio_previ  != "") cnfFileSelected = StringToWString(configuracio_previ);
+
+    wchar_t buffer[256];
+    wsprintfW(buffer, L"%d", ultim_assentament + 1);
+
+    SetWindowTextW(hANum, buffer);
+
     // Main loop
     while(GetMessage(&msg, (HWND)NULL, 0, 0)) {
         TranslateMessage(&msg);
@@ -454,14 +494,20 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
         case FILE_MENU_OPEN:
             SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
             if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            configuracio["arxiu_previ"] = WStringToString(csvFileSelected);
+            save_conf_file(configuracio, "files/config.json");
             break;
         case FILE_MENU_SAVE:
             numTable.saveFile();
+            std::cout << configuracio.dump(2);
+            save_conf_file(configuracio, "files/config.json");
             break;
         case FILE_MENU_OPEN_TABLE:
             SelectFile(hWnd, tabFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
             numTable = CSVReader(WStringToString(tabFileSelected));
             if (csvFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            configuracio["taula_clients_previ"] = WStringToString(tabFileSelected);
+            save_conf_file(configuracio, "files/config.json");
             break;
         case FILE_MENU_GEN_TABLE:
             if(csvFileSelected == L"" && tabFileSelected == L""){
@@ -475,6 +521,8 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
             break;
         case GEN_MENU_OPEN:
             SelectFile(hWnd, cnfFileSelected, L"Text File\0*.TXT*\0All\0*.*\0");
+            configuracio["configuracio_previ"] = WStringToString(cnfFileSelected);
+            save_conf_file(configuracio, "files/config.json");
             // parser = LineFormat(WStringToString(cnfFileSelected));
             break;
         case GEN_MENU_EDIT:
@@ -506,24 +554,24 @@ void AddMenus(HWND hWnd) {
     HMENU hFileMenu = CreateMenu();
     HMENU hGenMenu  = CreateMenu();
 
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN, L"Open Data");
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_SAVE, L"Save");
+    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN, L"Obrir Arxiu de Dades");
+    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_SAVE, L"Guardar");
     AppendMenuW(hFileMenu, MF_SEPARATOR, 0, NULL);
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN_TABLE, L"Open Client Table");
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_GEN_TABLE, L"Generate Client Table");
+    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN_TABLE, L"Obrir Taula de Clients");
+    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_GEN_TABLE, L"Regenerar Taula de Clients");
     AppendMenuW(hFileMenu, MF_SEPARATOR, 0, NULL);
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_EXIT, L"Exit");
+    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_EXIT, L"Sortir");
 
-    AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_NEW, L"New Configuration File");
-    AppendMenuW(hGenMenu, MF_STRING, GEN_MENU_OPEN, L"Load Configuration File");
+    AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_NEW, L"Nou Arxiu de Configuració");
+    AppendMenuW(hGenMenu, MF_STRING, GEN_MENU_OPEN, L"Carrega Arxiu de Configuració");
     AppendMenuW(hGenMenu, MF_SEPARATOR, 0, NULL);
     AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_EDIT, L"Edit TXT File");
     AppendMenuW(hGenMenu, MF_SEPARATOR, 0, NULL);
-    AppendMenuW(hGenMenu, MF_STRING, GEN_MENU_GEN, L"Generate TXT File");
+    AppendMenuW(hGenMenu, MF_STRING, GEN_MENU_GEN, L"Generar Arixiu TXT");
 
-    AppendMenuW(hMenu, MF_POPUP, (UINT_PTR)hFileMenu, L"File");
-    AppendMenuW(hMenu, MF_POPUP, (UINT_PTR)hGenMenu, L"Generate");
-    AppendMenuW(hMenu, MF_STRING, 0, L"Help");
+    AppendMenuW(hMenu, MF_POPUP, (UINT_PTR)hFileMenu, L"Arxiu");
+    AppendMenuW(hMenu, MF_POPUP, (UINT_PTR)hGenMenu, L"Generar");
+    AppendMenuW(hMenu, MF_STRING, 0, L"Ajuda");
 
     SetMenu(hWnd, hMenu);
 }
@@ -759,10 +807,18 @@ int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_li
     std::getline(in_file, line);
     out_file << "\"VER013\"\n";
     while (std::getline(in_file, line) /*&& lineCount < last*/) {
-        if (split(line, ';')[0] == "0") break;
+        if (split(line, ';')[0] == "" || split(line, ';')[0] == "0" ) break;
         out_file << parser.ParseLine(line);
         // lineCount++;
     }
+
+    configuracio["ultim_assentament"] = parser.get_count();
+    save_conf_file(configuracio, "");
+
+    wchar_t buffer[256];
+    wsprintfW(buffer, L"%d", parser.get_count() + 1);
+
+    SetWindowTextW(hANum, buffer);
 
     return 0;
 }
