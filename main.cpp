@@ -147,7 +147,7 @@ private:
         std::getline(iss, year, '/');
 
         std::ostringstream oss;
-        oss << std::setw(4) << std::setfill('0') << std::stoi(year) + 2000;
+        oss << std::setw(4) << std::setfill('0') << (year.size() > 2? std::stoi(year) : std::stoi(year) + 2000);
         oss << std::setw(2) << std::setfill('0') << month;
         oss << std::setw(2) << std::setfill('0') << day;
 
@@ -759,7 +759,7 @@ void RemoveConfigBlock(HWND hConfigBlock) {
 
 void SelectFile(HWND hWnd, std::wstring &filename, const wchar_t* filter) {
     OPENFILENAMEW ofn;
-    wchar_t file_name[100];
+    wchar_t file_name[200];
 
     ZeroMemory(&ofn, sizeof(OPENFILENAMEW));
 
