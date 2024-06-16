@@ -12,6 +12,9 @@
 #include <locale>
 #include <codecvt>
 
+#include <commdlg.h>
+#include <shlwapi.h>
+
 #include "json.hpp"
 
 using json = nlohmann::json;
@@ -52,7 +55,6 @@ std::wstring StringToWString(const std::string& str) {
 }
 
 void save_conf_file(json file, std::string file_name) {
-    file_name = "config.json";
     std::ofstream outFile(file_name);
     outFile << file.dump(4);
     outFile.flush();
@@ -70,6 +72,10 @@ void save_conf_file(json file, std::string file_name) {
 #define GEN_MENU_OPEN        7
 #define GEN_MENU_EDIT        8
 #define GEN_MENU_GEN         9
+
+#define GEN_VENTES      10
+#define GEN_ABONAMENTS  11
+#define GEN_COMPRES_WOP 12
 
 class CSVReader {
 private:
@@ -350,7 +356,7 @@ public:
             }
             _configs.push_back({condition, configs});
             configFile.close();
-        } else std::cerr << "Error: Unable to open config file." << std::endl;
+        } else std::cerr << "Error: Unable to open config file. \'" << configFilePath << "\'" << std::endl;
     }
 
     void addInitial(int value) {
@@ -427,6 +433,8 @@ std::wstring csvFileSelected;
 std::wstring cnfFileSelected;
 std::wstring tabFileSelected;
 
+std::filesystem::path currentDir;
+
 // LineFormat parser;
 
 // Main Window
@@ -460,18 +468,18 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR args, int ncmdsho
 
     MSG msg = {0};
 
+    currentDir = std::filesystem::current_path();
+
     // arxiu de configuracio
-    std::ifstream jsonFile("files/config.json");
+    std::wstring filesDirectory = L"config.json";
+    std::ifstream jsonFile(WStringToString(filesDirectory));
     jsonFile >> configuracio;
     jsonFile.close();
 
-    std::string arxiu_previ = configuracio.value("arxiu_previ", "");
-    std::string taula_clients_previ = configuracio.value("taula_clients_previ", "");
-    std::string configuracio_previ = configuracio.value("configuracio_previ", "");
+    tabFileSelected = StringToWString(configuracio.value("taula_clients_previ", ""));
     int ultim_assentament = configuracio.value("ultim_assentament", 0);
 
-    if(taula_clients_previ != "") numTable = CSVReader(taula_clients_previ);
-    if(configuracio_previ  != "") cnfFileSelected = StringToWString(configuracio_previ);
+    if(tabFileSelected != L"") numTable = CSVReader(WStringToString(tabFileSelected));
 
     wchar_t buffer[256];
     wsprintfW(buffer, L"%d", ultim_assentament + 1);
@@ -491,15 +499,39 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
     switch (msg) {
     case WM_COMMAND:
         switch (wp){
+        case GEN_VENTES:
+            SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
+            std::filesystem::current_path(currentDir);
+            cnfFileSelected = L".\\conf_ventes_nou.txt";
+            if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            generate_file(hWnd);
+            break;
+        case GEN_ABONAMENTS:
+            SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
+            std::filesystem::current_path(currentDir);
+            cnfFileSelected = L".\\conf_abonaments.txt";
+            if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            generate_file(hWnd);
+            break;
+        case GEN_COMPRES_WOP:
+            SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
+            std::filesystem::current_path(currentDir);
+            cnfFileSelected = L".\\conf_compres_wop.txt";
+            if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            generate_file(hWnd);
+            break;
+        // ---------------------
+        // Altres ...
+        // ---------------------
         case FILE_MENU_OPEN:
             SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
             if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
+            generate_file(hWnd);
             configuracio["arxiu_previ"] = WStringToString(csvFileSelected);
             save_conf_file(configuracio, "files/config.json");
             break;
         case FILE_MENU_SAVE:
             numTable.saveFile();
-            std::cout << configuracio.dump(2);
             save_conf_file(configuracio, "files/config.json");
             break;
         case FILE_MENU_OPEN_TABLE:
@@ -536,7 +568,7 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
         }
         break;
     case WM_CREATE:
-        AddMenus(hWnd);
+        // AddMenus(hWnd);
         AddControlls(hWnd);
         break;
     case WM_DESTROY:
@@ -577,10 +609,22 @@ void AddMenus(HWND hWnd) {
 }
 
 void AddControlls(HWND hWnd) {
-    HWND h = CreateWindowW(L"Static", L"Entra el primer assentament: ", WS_VISIBLE | WS_CHILD, 5, 0, 210, 20, hWnd, NULL, NULL, NULL);
+    // Assentaments
+    HWND h = CreateWindowW(L"Static", L"Primer assentament: ", WS_VISIBLE | WS_CHILD, 5, 5, 210, 20, hWnd, NULL, NULL, NULL);
     SendMessage(h, WM_SETFONT, (LPARAM)hFont, TRUE);
-    hANum = CreateWindowW(L"Edit", L"1", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_AUTOHSCROLL | ES_NUMBER, 220, 0, 60, 20, hWnd, NULL, NULL, NULL);
+    hANum = CreateWindowW(L"Edit", L"1", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_AUTOHSCROLL | ES_NUMBER, 220, 5, 60, 20, hWnd, NULL, NULL, NULL);
     SendMessage(hANum, WM_SETFONT, (LPARAM)hFont, TRUE);
+
+    // Controls
+    HWND hc = CreateWindowW(L"Static", L"Controls de generació d'arxius: ", WS_VISIBLE | WS_CHILD, 5, 30, 210, 20, hWnd, NULL, NULL, NULL);
+    SendMessage(hc, WM_SETFONT, (LPARAM)hFont, TRUE);
+    HWND h1 = CreateWindowW(L"Button", L"Ventes", WS_VISIBLE | WS_CHILD, 5, 55, 100, 20, hWnd, (HMENU)GEN_VENTES, NULL, NULL);
+    SendMessage(h1, WM_SETFONT, (LPARAM)hFont, TRUE);
+    HWND h2 = CreateWindowW(L"Button", L"Abonaments", WS_VISIBLE | WS_CHILD, 110, 55, 100, 20, hWnd, (HMENU)GEN_ABONAMENTS, NULL, NULL);
+    SendMessage(h2, WM_SETFONT, (LPARAM)hFont, TRUE);
+    HWND h3 = CreateWindowW(L"Button", L"Compres WOP", WS_VISIBLE | WS_CHILD, 215, 55, 100, 20, hWnd, (HMENU)GEN_COMPRES_WOP, NULL, NULL);
+    SendMessage(h3, WM_SETFONT, (LPARAM)hFont, TRUE);
+
 }
 
 // Define constants for control IDs
@@ -812,8 +856,9 @@ int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_li
         // lineCount++;
     }
 
-    configuracio["ultim_assentament"] = parser.get_count();
-    save_conf_file(configuracio, "");
+    configuracio["ultim_assentament"] = parser.get_count() + 1;
+    std::filesystem::current_path(currentDir);
+    save_conf_file(configuracio, ".\\config.json");
 
     wchar_t buffer[256];
     wsprintfW(buffer, L"%d", parser.get_count() + 1);
