@@ -16,50 +16,18 @@
 #include <shlwapi.h>
 
 #include "json.hpp"
-
 using json = nlohmann::json;
 
 std::string wctos(wchar_t *value);
+std::string WStringToString(const std::wstring& wstr);
+std::wstring StringToWString(const std::string& str);
+
+std::vector<std::string> split(const std::string &s, char delimiter);
+std::vector<std::wstring> wsplit(const std::string &s, char delimiter);
+
 int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_lines);
-std::vector<std::string> split(const std::string &s, char delimiter) {
-    std::istringstream iss(s);
-    std::string cellData;
-    std::vector<std::string> cells;
-
-    while (std::getline(iss, cellData, delimiter)) cells.push_back(cellData);
-
-    return cells;
-}
-
-std::vector<std::wstring> wsplit(const std::string &s, char delimiter) {
-    std::istringstream iss(s);
-    std::string cellData;
-    std::vector<std::wstring> cells;
-
-    while (std::getline(iss, cellData, delimiter)) cells.push_back(std::wstring(cellData.begin(), cellData.end()).c_str());
-
-    return cells;
-}
-
-std::string WStringToString(const std::wstring& wstr){
-	std::string str;
-	size_t size;
-	str.resize(wstr.length());
-	wcstombs_s(&size, &str[0], str.size() + 1, wstr.c_str(), wstr.size());
-	return str;
-}
-
-std::wstring StringToWString(const std::string& str) {
-    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-    return converter.from_bytes(str);
-}
-
-void save_conf_file(json file, std::string file_name) {
-    std::ofstream outFile(file_name);
-    outFile << file.dump(4);
-    outFile.flush();
-    outFile.close();
-}
+void generate_file(HWND hWnd);
+void save_conf_file(json file, std::string file_name);
 
 // Options definition
 #define FILE_MENU_OPEN       1
@@ -471,7 +439,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR args, int ncmdsho
     currentDir = std::filesystem::current_path();
 
     // arxiu de configuracio
-    std::wstring filesDirectory = L"config.json";
+    std::wstring filesDirectory = currentDir / L"config.json";
     std::ifstream jsonFile(WStringToString(filesDirectory));
     jsonFile >> configuracio;
     jsonFile.close();
@@ -501,22 +469,19 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
         switch (wp){
         case GEN_VENTES:
             SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
-            std::filesystem::current_path(currentDir);
-            cnfFileSelected = L".\\conf_ventes_nou.txt";
+            cnfFileSelected = currentDir / L"conf_ventes_nou.txt";
             if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
             generate_file(hWnd);
             break;
         case GEN_ABONAMENTS:
             SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
-            std::filesystem::current_path(currentDir);
-            cnfFileSelected = L".\\conf_abonaments.txt";
+            cnfFileSelected = currentDir / L"conf_abonaments.txt";
             if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
             generate_file(hWnd);
             break;
         case GEN_COMPRES_WOP:
             SelectFile(hWnd, csvFileSelected, L"Comma Separated Values\0*.CSV*\0All\0*.*\0");
-            std::filesystem::current_path(currentDir);
-            cnfFileSelected = L".\\conf_compres_wop.txt";
+            cnfFileSelected = currentDir / L"conf_compres_wop.txt";
             if (tabFileSelected != L"") numTable.updateNames(WStringToString(csvFileSelected), "Cliente");
             generate_file(hWnd);
             break;
@@ -568,7 +533,7 @@ LRESULT CALLBACK WindowProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp) {
         }
         break;
     case WM_CREATE:
-        // AddMenus(hWnd);
+        AddMenus(hWnd);
         AddControlls(hWnd);
         break;
     case WM_DESTROY:
@@ -586,16 +551,16 @@ void AddMenus(HWND hWnd) {
     HMENU hFileMenu = CreateMenu();
     HMENU hGenMenu  = CreateMenu();
 
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN, L"Obrir Arxiu de Dades");
+    AppendMenuW(hFileMenu, MF_STRING | MF_DISABLED, FILE_MENU_OPEN, L"Obrir Arxiu de Dades");
     AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_SAVE, L"Guardar");
     AppendMenuW(hFileMenu, MF_SEPARATOR, 0, NULL);
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_OPEN_TABLE, L"Obrir Taula de Clients");
-    AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_GEN_TABLE, L"Regenerar Taula de Clients");
+    AppendMenuW(hFileMenu, MF_STRING | MF_DISABLED, FILE_MENU_OPEN_TABLE, L"Obrir Taula de Clients");
+    AppendMenuW(hFileMenu, MF_STRING | MF_DISABLED, FILE_MENU_GEN_TABLE, L"Regenerar Taula de Clients");
     AppendMenuW(hFileMenu, MF_SEPARATOR, 0, NULL);
     AppendMenuW(hFileMenu, MF_STRING, FILE_MENU_EXIT, L"Sortir");
 
     AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_NEW, L"Nou Arxiu de Configuració");
-    AppendMenuW(hGenMenu, MF_STRING, GEN_MENU_OPEN, L"Carrega Arxiu de Configuració");
+    AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_OPEN, L"Carrega Arxiu de Configuració");
     AppendMenuW(hGenMenu, MF_SEPARATOR, 0, NULL);
     AppendMenuW(hGenMenu, MF_STRING | MF_DISABLED, GEN_MENU_EDIT, L"Edit TXT File");
     AppendMenuW(hGenMenu, MF_SEPARATOR, 0, NULL);
@@ -817,6 +782,46 @@ std::string wctos(wchar_t *value) {
     return str;
 }
 
+std::vector<std::string> split(const std::string &s, char delimiter) {
+    std::istringstream iss(s);
+    std::string cellData;
+    std::vector<std::string> cells;
+
+    while (std::getline(iss, cellData, delimiter)) cells.push_back(cellData);
+
+    return cells;
+}
+
+std::vector<std::wstring> wsplit(const std::string &s, char delimiter) {
+    std::istringstream iss(s);
+    std::string cellData;
+    std::vector<std::wstring> cells;
+
+    while (std::getline(iss, cellData, delimiter)) cells.push_back(std::wstring(cellData.begin(), cellData.end()).c_str());
+
+    return cells;
+}
+
+std::string WStringToString(const std::wstring& wstr){
+	std::string str;
+	size_t size;
+	str.resize(wstr.length());
+	wcstombs_s(&size, &str[0], str.size() + 1, wstr.c_str(), wstr.size());
+	return str;
+}
+
+std::wstring StringToWString(const std::string& str) {
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    return converter.from_bytes(str);
+}
+
+void save_conf_file(json file, std::string file_name) {
+    std::ofstream outFile(file_name);
+    outFile << file.dump(4);
+    outFile.flush();
+    outFile.close();
+}
+
 void generate_file(HWND hWnd) {
     wchar_t a_num[7], file_name[100];
 
@@ -856,13 +861,12 @@ int transform_file(std::ifstream & in_file, std::ofstream & out_file, int max_li
         // lineCount++;
     }
 
-    configuracio["ultim_assentament"] = parser.get_count() + 1;
+    configuracio["ultim_assentament"] = a_num + parser.get_count() + 1;
     std::filesystem::current_path(currentDir);
-    save_conf_file(configuracio, ".\\config.json");
+    save_conf_file(configuracio, (currentDir / "config.json").u8string());
 
     wchar_t buffer[256];
-    wsprintfW(buffer, L"%d", parser.get_count() + 1);
-
+    wsprintfW(buffer, L"%d", a_num + parser.get_count() + 1);
     SetWindowTextW(hANum, buffer);
 
     return 0;
