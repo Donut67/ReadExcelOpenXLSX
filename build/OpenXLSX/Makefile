@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\ReadExcelOpenXLSX
+CMAKE_SOURCE_DIR = C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\ReadExcelOpenXLSX\build
+CMAKE_BINARY_DIR = C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX\\CMakeFiles\progress.marks
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles 0
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX\\CMakeFiles\progress.marks
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/clean
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/preinstall
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/preinstall
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 OpenXLSX/CMakeFiles/OpenXLSX.dir/rule:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/CMakeFiles/OpenXLSX.dir/rule
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenXLSX/CMakeFiles/OpenXLSX.dir/rule
 .PHONY : OpenXLSX/CMakeFiles/OpenXLSX.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ OpenXLSX: OpenXLSX/CMakeFiles/OpenXLSX.dir/rule
 
 # fast build rule for target.
 OpenXLSX/fast:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/build
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 .PHONY : OpenXLSX/fast
 
 sources/XLCell.obj: sources/XLCell.cpp.obj
@@ -179,7 +179,7 @@ sources/XLCell.obj: sources/XLCell.cpp.obj
 
 # target to build an object file
 sources/XLCell.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj
 .PHONY : sources/XLCell.cpp.obj
 
 sources/XLCell.i: sources/XLCell.cpp.i
@@ -187,7 +187,7 @@ sources/XLCell.i: sources/XLCell.cpp.i
 
 # target to preprocess a source file
 sources/XLCell.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i
 .PHONY : sources/XLCell.cpp.i
 
 sources/XLCell.s: sources/XLCell.cpp.s
@@ -195,7 +195,7 @@ sources/XLCell.s: sources/XLCell.cpp.s
 
 # target to generate assembly for a file
 sources/XLCell.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s
 .PHONY : sources/XLCell.cpp.s
 
 sources/XLCellIterator.obj: sources/XLCellIterator.cpp.obj
@@ -203,7 +203,7 @@ sources/XLCellIterator.obj: sources/XLCellIterator.cpp.obj
 
 # target to build an object file
 sources/XLCellIterator.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj
 .PHONY : sources/XLCellIterator.cpp.obj
 
 sources/XLCellIterator.i: sources/XLCellIterator.cpp.i
@@ -211,7 +211,7 @@ sources/XLCellIterator.i: sources/XLCellIterator.cpp.i
 
 # target to preprocess a source file
 sources/XLCellIterator.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i
 .PHONY : sources/XLCellIterator.cpp.i
 
 sources/XLCellIterator.s: sources/XLCellIterator.cpp.s
@@ -219,7 +219,7 @@ sources/XLCellIterator.s: sources/XLCellIterator.cpp.s
 
 # target to generate assembly for a file
 sources/XLCellIterator.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s
 .PHONY : sources/XLCellIterator.cpp.s
 
 sources/XLCellRange.obj: sources/XLCellRange.cpp.obj
@@ -227,7 +227,7 @@ sources/XLCellRange.obj: sources/XLCellRange.cpp.obj
 
 # target to build an object file
 sources/XLCellRange.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj
 .PHONY : sources/XLCellRange.cpp.obj
 
 sources/XLCellRange.i: sources/XLCellRange.cpp.i
@@ -235,7 +235,7 @@ sources/XLCellRange.i: sources/XLCellRange.cpp.i
 
 # target to preprocess a source file
 sources/XLCellRange.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i
 .PHONY : sources/XLCellRange.cpp.i
 
 sources/XLCellRange.s: sources/XLCellRange.cpp.s
@@ -243,7 +243,7 @@ sources/XLCellRange.s: sources/XLCellRange.cpp.s
 
 # target to generate assembly for a file
 sources/XLCellRange.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s
 .PHONY : sources/XLCellRange.cpp.s
 
 sources/XLCellReference.obj: sources/XLCellReference.cpp.obj
@@ -251,7 +251,7 @@ sources/XLCellReference.obj: sources/XLCellReference.cpp.obj
 
 # target to build an object file
 sources/XLCellReference.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj
 .PHONY : sources/XLCellReference.cpp.obj
 
 sources/XLCellReference.i: sources/XLCellReference.cpp.i
@@ -259,7 +259,7 @@ sources/XLCellReference.i: sources/XLCellReference.cpp.i
 
 # target to preprocess a source file
 sources/XLCellReference.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i
 .PHONY : sources/XLCellReference.cpp.i
 
 sources/XLCellReference.s: sources/XLCellReference.cpp.s
@@ -267,7 +267,7 @@ sources/XLCellReference.s: sources/XLCellReference.cpp.s
 
 # target to generate assembly for a file
 sources/XLCellReference.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s
 .PHONY : sources/XLCellReference.cpp.s
 
 sources/XLCellValue.obj: sources/XLCellValue.cpp.obj
@@ -275,7 +275,7 @@ sources/XLCellValue.obj: sources/XLCellValue.cpp.obj
 
 # target to build an object file
 sources/XLCellValue.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj
 .PHONY : sources/XLCellValue.cpp.obj
 
 sources/XLCellValue.i: sources/XLCellValue.cpp.i
@@ -283,7 +283,7 @@ sources/XLCellValue.i: sources/XLCellValue.cpp.i
 
 # target to preprocess a source file
 sources/XLCellValue.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i
 .PHONY : sources/XLCellValue.cpp.i
 
 sources/XLCellValue.s: sources/XLCellValue.cpp.s
@@ -291,7 +291,7 @@ sources/XLCellValue.s: sources/XLCellValue.cpp.s
 
 # target to generate assembly for a file
 sources/XLCellValue.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s
 .PHONY : sources/XLCellValue.cpp.s
 
 sources/XLColor.obj: sources/XLColor.cpp.obj
@@ -299,7 +299,7 @@ sources/XLColor.obj: sources/XLColor.cpp.obj
 
 # target to build an object file
 sources/XLColor.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj
 .PHONY : sources/XLColor.cpp.obj
 
 sources/XLColor.i: sources/XLColor.cpp.i
@@ -307,7 +307,7 @@ sources/XLColor.i: sources/XLColor.cpp.i
 
 # target to preprocess a source file
 sources/XLColor.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i
 .PHONY : sources/XLColor.cpp.i
 
 sources/XLColor.s: sources/XLColor.cpp.s
@@ -315,7 +315,7 @@ sources/XLColor.s: sources/XLColor.cpp.s
 
 # target to generate assembly for a file
 sources/XLColor.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s
 .PHONY : sources/XLColor.cpp.s
 
 sources/XLColumn.obj: sources/XLColumn.cpp.obj
@@ -323,7 +323,7 @@ sources/XLColumn.obj: sources/XLColumn.cpp.obj
 
 # target to build an object file
 sources/XLColumn.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj
 .PHONY : sources/XLColumn.cpp.obj
 
 sources/XLColumn.i: sources/XLColumn.cpp.i
@@ -331,7 +331,7 @@ sources/XLColumn.i: sources/XLColumn.cpp.i
 
 # target to preprocess a source file
 sources/XLColumn.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i
 .PHONY : sources/XLColumn.cpp.i
 
 sources/XLColumn.s: sources/XLColumn.cpp.s
@@ -339,7 +339,7 @@ sources/XLColumn.s: sources/XLColumn.cpp.s
 
 # target to generate assembly for a file
 sources/XLColumn.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s
 .PHONY : sources/XLColumn.cpp.s
 
 sources/XLContentTypes.obj: sources/XLContentTypes.cpp.obj
@@ -347,7 +347,7 @@ sources/XLContentTypes.obj: sources/XLContentTypes.cpp.obj
 
 # target to build an object file
 sources/XLContentTypes.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj
 .PHONY : sources/XLContentTypes.cpp.obj
 
 sources/XLContentTypes.i: sources/XLContentTypes.cpp.i
@@ -355,7 +355,7 @@ sources/XLContentTypes.i: sources/XLContentTypes.cpp.i
 
 # target to preprocess a source file
 sources/XLContentTypes.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i
 .PHONY : sources/XLContentTypes.cpp.i
 
 sources/XLContentTypes.s: sources/XLContentTypes.cpp.s
@@ -363,7 +363,7 @@ sources/XLContentTypes.s: sources/XLContentTypes.cpp.s
 
 # target to generate assembly for a file
 sources/XLContentTypes.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s
 .PHONY : sources/XLContentTypes.cpp.s
 
 sources/XLDateTime.obj: sources/XLDateTime.cpp.obj
@@ -371,7 +371,7 @@ sources/XLDateTime.obj: sources/XLDateTime.cpp.obj
 
 # target to build an object file
 sources/XLDateTime.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj
 .PHONY : sources/XLDateTime.cpp.obj
 
 sources/XLDateTime.i: sources/XLDateTime.cpp.i
@@ -379,7 +379,7 @@ sources/XLDateTime.i: sources/XLDateTime.cpp.i
 
 # target to preprocess a source file
 sources/XLDateTime.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i
 .PHONY : sources/XLDateTime.cpp.i
 
 sources/XLDateTime.s: sources/XLDateTime.cpp.s
@@ -387,7 +387,7 @@ sources/XLDateTime.s: sources/XLDateTime.cpp.s
 
 # target to generate assembly for a file
 sources/XLDateTime.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s
 .PHONY : sources/XLDateTime.cpp.s
 
 sources/XLDocument.obj: sources/XLDocument.cpp.obj
@@ -395,7 +395,7 @@ sources/XLDocument.obj: sources/XLDocument.cpp.obj
 
 # target to build an object file
 sources/XLDocument.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj
 .PHONY : sources/XLDocument.cpp.obj
 
 sources/XLDocument.i: sources/XLDocument.cpp.i
@@ -403,7 +403,7 @@ sources/XLDocument.i: sources/XLDocument.cpp.i
 
 # target to preprocess a source file
 sources/XLDocument.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i
 .PHONY : sources/XLDocument.cpp.i
 
 sources/XLDocument.s: sources/XLDocument.cpp.s
@@ -411,7 +411,7 @@ sources/XLDocument.s: sources/XLDocument.cpp.s
 
 # target to generate assembly for a file
 sources/XLDocument.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s
 .PHONY : sources/XLDocument.cpp.s
 
 sources/XLFormula.obj: sources/XLFormula.cpp.obj
@@ -419,7 +419,7 @@ sources/XLFormula.obj: sources/XLFormula.cpp.obj
 
 # target to build an object file
 sources/XLFormula.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj
 .PHONY : sources/XLFormula.cpp.obj
 
 sources/XLFormula.i: sources/XLFormula.cpp.i
@@ -427,7 +427,7 @@ sources/XLFormula.i: sources/XLFormula.cpp.i
 
 # target to preprocess a source file
 sources/XLFormula.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i
 .PHONY : sources/XLFormula.cpp.i
 
 sources/XLFormula.s: sources/XLFormula.cpp.s
@@ -435,7 +435,7 @@ sources/XLFormula.s: sources/XLFormula.cpp.s
 
 # target to generate assembly for a file
 sources/XLFormula.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s
 .PHONY : sources/XLFormula.cpp.s
 
 sources/XLProperties.obj: sources/XLProperties.cpp.obj
@@ -443,7 +443,7 @@ sources/XLProperties.obj: sources/XLProperties.cpp.obj
 
 # target to build an object file
 sources/XLProperties.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj
 .PHONY : sources/XLProperties.cpp.obj
 
 sources/XLProperties.i: sources/XLProperties.cpp.i
@@ -451,7 +451,7 @@ sources/XLProperties.i: sources/XLProperties.cpp.i
 
 # target to preprocess a source file
 sources/XLProperties.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i
 .PHONY : sources/XLProperties.cpp.i
 
 sources/XLProperties.s: sources/XLProperties.cpp.s
@@ -459,7 +459,7 @@ sources/XLProperties.s: sources/XLProperties.cpp.s
 
 # target to generate assembly for a file
 sources/XLProperties.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s
 .PHONY : sources/XLProperties.cpp.s
 
 sources/XLRelationships.obj: sources/XLRelationships.cpp.obj
@@ -467,7 +467,7 @@ sources/XLRelationships.obj: sources/XLRelationships.cpp.obj
 
 # target to build an object file
 sources/XLRelationships.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj
 .PHONY : sources/XLRelationships.cpp.obj
 
 sources/XLRelationships.i: sources/XLRelationships.cpp.i
@@ -475,7 +475,7 @@ sources/XLRelationships.i: sources/XLRelationships.cpp.i
 
 # target to preprocess a source file
 sources/XLRelationships.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i
 .PHONY : sources/XLRelationships.cpp.i
 
 sources/XLRelationships.s: sources/XLRelationships.cpp.s
@@ -483,7 +483,7 @@ sources/XLRelationships.s: sources/XLRelationships.cpp.s
 
 # target to generate assembly for a file
 sources/XLRelationships.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s
 .PHONY : sources/XLRelationships.cpp.s
 
 sources/XLRow.obj: sources/XLRow.cpp.obj
@@ -491,7 +491,7 @@ sources/XLRow.obj: sources/XLRow.cpp.obj
 
 # target to build an object file
 sources/XLRow.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj
 .PHONY : sources/XLRow.cpp.obj
 
 sources/XLRow.i: sources/XLRow.cpp.i
@@ -499,7 +499,7 @@ sources/XLRow.i: sources/XLRow.cpp.i
 
 # target to preprocess a source file
 sources/XLRow.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i
 .PHONY : sources/XLRow.cpp.i
 
 sources/XLRow.s: sources/XLRow.cpp.s
@@ -507,7 +507,7 @@ sources/XLRow.s: sources/XLRow.cpp.s
 
 # target to generate assembly for a file
 sources/XLRow.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s
 .PHONY : sources/XLRow.cpp.s
 
 sources/XLRowData.obj: sources/XLRowData.cpp.obj
@@ -515,7 +515,7 @@ sources/XLRowData.obj: sources/XLRowData.cpp.obj
 
 # target to build an object file
 sources/XLRowData.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj
 .PHONY : sources/XLRowData.cpp.obj
 
 sources/XLRowData.i: sources/XLRowData.cpp.i
@@ -523,7 +523,7 @@ sources/XLRowData.i: sources/XLRowData.cpp.i
 
 # target to preprocess a source file
 sources/XLRowData.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i
 .PHONY : sources/XLRowData.cpp.i
 
 sources/XLRowData.s: sources/XLRowData.cpp.s
@@ -531,7 +531,7 @@ sources/XLRowData.s: sources/XLRowData.cpp.s
 
 # target to generate assembly for a file
 sources/XLRowData.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s
 .PHONY : sources/XLRowData.cpp.s
 
 sources/XLSharedStrings.obj: sources/XLSharedStrings.cpp.obj
@@ -539,7 +539,7 @@ sources/XLSharedStrings.obj: sources/XLSharedStrings.cpp.obj
 
 # target to build an object file
 sources/XLSharedStrings.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj
 .PHONY : sources/XLSharedStrings.cpp.obj
 
 sources/XLSharedStrings.i: sources/XLSharedStrings.cpp.i
@@ -547,7 +547,7 @@ sources/XLSharedStrings.i: sources/XLSharedStrings.cpp.i
 
 # target to preprocess a source file
 sources/XLSharedStrings.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i
 .PHONY : sources/XLSharedStrings.cpp.i
 
 sources/XLSharedStrings.s: sources/XLSharedStrings.cpp.s
@@ -555,7 +555,7 @@ sources/XLSharedStrings.s: sources/XLSharedStrings.cpp.s
 
 # target to generate assembly for a file
 sources/XLSharedStrings.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s
 .PHONY : sources/XLSharedStrings.cpp.s
 
 sources/XLSheet.obj: sources/XLSheet.cpp.obj
@@ -563,7 +563,7 @@ sources/XLSheet.obj: sources/XLSheet.cpp.obj
 
 # target to build an object file
 sources/XLSheet.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj
 .PHONY : sources/XLSheet.cpp.obj
 
 sources/XLSheet.i: sources/XLSheet.cpp.i
@@ -571,7 +571,7 @@ sources/XLSheet.i: sources/XLSheet.cpp.i
 
 # target to preprocess a source file
 sources/XLSheet.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i
 .PHONY : sources/XLSheet.cpp.i
 
 sources/XLSheet.s: sources/XLSheet.cpp.s
@@ -579,7 +579,7 @@ sources/XLSheet.s: sources/XLSheet.cpp.s
 
 # target to generate assembly for a file
 sources/XLSheet.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s
 .PHONY : sources/XLSheet.cpp.s
 
 sources/XLWorkbook.obj: sources/XLWorkbook.cpp.obj
@@ -587,7 +587,7 @@ sources/XLWorkbook.obj: sources/XLWorkbook.cpp.obj
 
 # target to build an object file
 sources/XLWorkbook.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj
 .PHONY : sources/XLWorkbook.cpp.obj
 
 sources/XLWorkbook.i: sources/XLWorkbook.cpp.i
@@ -595,7 +595,7 @@ sources/XLWorkbook.i: sources/XLWorkbook.cpp.i
 
 # target to preprocess a source file
 sources/XLWorkbook.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i
 .PHONY : sources/XLWorkbook.cpp.i
 
 sources/XLWorkbook.s: sources/XLWorkbook.cpp.s
@@ -603,7 +603,7 @@ sources/XLWorkbook.s: sources/XLWorkbook.cpp.s
 
 # target to generate assembly for a file
 sources/XLWorkbook.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s
 .PHONY : sources/XLWorkbook.cpp.s
 
 sources/XLXmlData.obj: sources/XLXmlData.cpp.obj
@@ -611,7 +611,7 @@ sources/XLXmlData.obj: sources/XLXmlData.cpp.obj
 
 # target to build an object file
 sources/XLXmlData.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj
 .PHONY : sources/XLXmlData.cpp.obj
 
 sources/XLXmlData.i: sources/XLXmlData.cpp.i
@@ -619,7 +619,7 @@ sources/XLXmlData.i: sources/XLXmlData.cpp.i
 
 # target to preprocess a source file
 sources/XLXmlData.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i
 .PHONY : sources/XLXmlData.cpp.i
 
 sources/XLXmlData.s: sources/XLXmlData.cpp.s
@@ -627,7 +627,7 @@ sources/XLXmlData.s: sources/XLXmlData.cpp.s
 
 # target to generate assembly for a file
 sources/XLXmlData.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s
 .PHONY : sources/XLXmlData.cpp.s
 
 sources/XLXmlFile.obj: sources/XLXmlFile.cpp.obj
@@ -635,7 +635,7 @@ sources/XLXmlFile.obj: sources/XLXmlFile.cpp.obj
 
 # target to build an object file
 sources/XLXmlFile.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj
 .PHONY : sources/XLXmlFile.cpp.obj
 
 sources/XLXmlFile.i: sources/XLXmlFile.cpp.i
@@ -643,7 +643,7 @@ sources/XLXmlFile.i: sources/XLXmlFile.cpp.i
 
 # target to preprocess a source file
 sources/XLXmlFile.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i
 .PHONY : sources/XLXmlFile.cpp.i
 
 sources/XLXmlFile.s: sources/XLXmlFile.cpp.s
@@ -651,7 +651,7 @@ sources/XLXmlFile.s: sources/XLXmlFile.cpp.s
 
 # target to generate assembly for a file
 sources/XLXmlFile.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s
 .PHONY : sources/XLXmlFile.cpp.s
 
 sources/XLZipArchive.obj: sources/XLZipArchive.cpp.obj
@@ -659,7 +659,7 @@ sources/XLZipArchive.obj: sources/XLZipArchive.cpp.obj
 
 # target to build an object file
 sources/XLZipArchive.cpp.obj:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj
 .PHONY : sources/XLZipArchive.cpp.obj
 
 sources/XLZipArchive.i: sources/XLZipArchive.cpp.i
@@ -667,7 +667,7 @@ sources/XLZipArchive.i: sources/XLZipArchive.cpp.i
 
 # target to preprocess a source file
 sources/XLZipArchive.cpp.i:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i
 .PHONY : sources/XLZipArchive.cpp.i
 
 sources/XLZipArchive.s: sources/XLZipArchive.cpp.s
@@ -675,7 +675,7 @@ sources/XLZipArchive.s: sources/XLZipArchive.cpp.s
 
 # target to generate assembly for a file
 sources/XLZipArchive.cpp.s:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(MAKE) $(MAKESILENT) -f OpenXLSX\CMakeFiles\OpenXLSX.dir\build.make OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s
 .PHONY : sources/XLZipArchive.cpp.s
 
 # Help Target
@@ -765,6 +765,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

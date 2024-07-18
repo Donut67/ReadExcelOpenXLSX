@@ -1,6 +1,6 @@
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: \
- D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/ctime \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -16,8 +16,8 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
  C:/msys64/ucrt64/include/_timeval.h \
  C:/msys64/ucrt64/include/pthread_time.h \
- D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/stdexcept \
  C:/msys64/ucrt64/include/c++/13.2.0/exception \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h \
@@ -109,7 +109,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.2.0/tuple \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \

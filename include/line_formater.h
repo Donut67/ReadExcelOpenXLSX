@@ -29,56 +29,6 @@ private:
     std::map<std::string, CSVReader*> _worksheets;
     int _count;
 
-    double EvaluateExpression(const std::string& expression, const std::vector<std::string>& data) {
-        std::istringstream tokens(expression);
-        return EvaluateAddSub(tokens, data);
-    }
-
-    double EvaluateAddSub(std::istringstream& tokens, const std::vector<std::string>& data) {
-        double value = EvaluateMulDiv(tokens, data);
-        while (tokens) {
-            char op = tokens.peek();
-            if (op == '+' || op == '-') {
-                tokens.get();
-                double rhs = EvaluateMulDiv(tokens, data);
-                if (op == '+') value += rhs;
-                else value -= rhs;
-            } else break;
-        }
-        return value;
-    }
-
-    double EvaluateMulDiv(std::istringstream& tokens, const std::vector<std::string>& data) {
-        double value = EvaluateValue(tokens, data);
-        while (tokens) {
-            char op = tokens.peek();
-            if (op == '*' || op == '/') {
-                tokens.get();
-                double rhs = EvaluateValue(tokens, data);
-                if (op == '*') value *= rhs;
-                else value /= rhs;
-            } else break;
-        }
-        return value;
-    }
-
-    double EvaluateValue(std::istringstream& tokens, const std::vector<std::string>& data) {
-        double value;
-        if (isdigit(tokens.peek())) tokens >> value;
-        else if (tokens.peek() == '(') {
-            tokens.get(); // '('
-            value = EvaluateAddSub(tokens, data);
-            tokens.get(); // ')'
-        } else {
-            std::string token;
-            while (isalnum(tokens.peek()) || tokens.peek() == '#') token += tokens.get();
-
-            std::string valueStr = GetValueOrOriginal(token, data);
-            value = std::stod(valueStr);
-        }
-        return value;
-    }
-    
     std::string GetValueOrOriginal(const std::string& input, std::vector<std::string> data) {
         size_t formatPos = input.find("#");
         if (formatPos != std::string::npos) {
@@ -93,7 +43,7 @@ private:
 
                 std::ostringstream oss;
                 oss << std::setw(4) << std::setfill('0') << 1900 + tmo.tm_year;
-                oss << std::setw(2) << std::setfill('0') << tmo.tm_mon;
+                oss << std::setw(2) << std::setfill('0') << (tmo.tm_mon + 1);
                 oss << std::setw(2) << std::setfill('0') << tmo.tm_mday;
 
                 return oss.str();
@@ -177,7 +127,7 @@ private:
             
             try {
                 int precision = stoi(processed.substr(formatPos + 1));
-                double result = EvaluateExpression(expression, data);
+                double result = EvaluateExpression(expression);
 
                 std::ostringstream oss;
                 oss << std::fixed << std::setprecision(precision) << result;

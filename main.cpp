@@ -37,8 +37,9 @@ using namespace OpenXLSX;
 
 // ===== Functions ===== //
 void AddControlls(HWND);
-void ParseFile(HWND hWnd, const std::string &config_file, std::wstring file);
 int SelectFile(HWND hWnd, std::wstring &filename, const wchar_t* filter);
+void ParseFile(HWND hWnd, const std::string &config_file, std::wstring file);
+bool IsCumulativeSumRow(const XLRow& row);
 
 void SaveConfigurationFile(json file, std::string file_name);
 
@@ -181,9 +182,9 @@ void AddControlls(HWND hWnd) {
 }
 
 void ParseFile(HWND hWnd, const std::string &config_file, std::wstring file) {
-    wchar_t a_num[7];
+    wchar_t a_num[10];
 
-    GetWindowTextW(hANum, a_num, 7);
+    GetWindowTextW(hANum, a_num, 10);
 
     std::wstring extension;
     extension = file.substr(file.rfind(L".") + 1, file.size());
@@ -205,12 +206,18 @@ void ParseFile(HWND hWnd, const std::string &config_file, std::wstring file) {
 
     for(auto row : wks.rows()) {
         // if(row.rowNumber() == 50) break;
-        if(std::vector<XLCellValue>(row.values())[0].type() == XLValueType::Empty) break;
-        else if(row.rowNumber() != 1) {
+        if(row.rowNumber() != 1) {
+            bool finish = false;
+
             std::ostringstream oss;
-
-            for(auto cell : row.cells()) oss << cell.value() << ";";
-
+            for(auto cell : row.cells()) {
+                if (cell.formula().get().find("SUM") != std::string::npos) {
+                    finish = true;
+                    break;
+                }
+                oss << cell.value() << ";";
+            }
+            if(finish) break;
             out_file << parser.ParseLine(oss.str() + "\n");
         }
     }
@@ -230,17 +237,30 @@ void ParseFile(HWND hWnd, const std::string &config_file, std::wstring file) {
     SetWindowTextW(hANum, buffer);
 }
 
+bool IsCumulativeSumRow(const XLRow& row) {
+    for (const auto& cell : row.cells()) {
+        // Assuming cumulative sum rows contain the word "SUM" in one of the cells.
+        if (cell.value().type() == XLValueType::String) {
+            std::string cellValue = cell.value().get<std::string>();
+            if (cellValue.find("SUM") != std::string::npos) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 int SelectFile(HWND hWnd, std::wstring &filename, const wchar_t* filter) {
     OPENFILENAMEW ofn;
-    wchar_t file_name[200];
+    wchar_t file_name[MAX_PATH];
 
     ZeroMemory(&ofn, sizeof(OPENFILENAMEW));
 
     ofn.lStructSize = sizeof(OPENFILENAMEW);
     ofn.hwndOwner = hWnd;
     ofn.lpstrFile = file_name;
-    ofn.lpstrFile[0] = '\0';
-    ofn.nMaxFile = 100;
+    ofn.lpstrFile[0] = L'\0';
+    ofn.nMaxFile = MAX_PATH;
     ofn.lpstrFilter = filter;
     ofn.nFilterIndex = 1;
 

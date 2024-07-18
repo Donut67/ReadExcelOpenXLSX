@@ -1,5 +1,5 @@
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: \
- D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp \
  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -145,9 +145,9 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLColor.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLColor.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp

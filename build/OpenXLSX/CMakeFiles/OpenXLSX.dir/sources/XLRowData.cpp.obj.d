@@ -1,5 +1,5 @@
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
- D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp \
  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -53,7 +53,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cassert \
  C:/msys64/ucrt64/include/assert.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/memory \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h \
@@ -118,8 +118,8 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
- D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h \
@@ -145,7 +145,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
@@ -173,18 +173,18 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/variant \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/parse_numbers.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/ctime \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/deque \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_deque.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/deque.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/list \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/list.tcc \
@@ -192,23 +192,23 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLConstants.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLIterator.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
- D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\utilities/XLUtilities.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLConstants.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLIterator.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\utilities/XLUtilities.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugiconfig.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugiconfig.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/iterator \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.cpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.cpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp

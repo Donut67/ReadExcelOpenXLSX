@@ -1,5 +1,5 @@
 CMakeFiles/ReadExcel.dir/main.cpp.obj: \
- D:\Projects\ReadExcelOpenXLSX\main.cpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\main.cpp \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -394,8 +394,8 @@ CMakeFiles/ReadExcel.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_dir.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_ops.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/OpenXLSX.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/OpenXLSX.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/memory \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/align.h \
@@ -404,70 +404,55 @@ CMakeFiles/ReadExcel.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
- D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/utility \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_relops.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/variant \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/deque \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_deque.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/deque.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellRange.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellIterator.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLIterator.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLColumn.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellRange.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCell.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellIterator.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLIterator.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLColumn.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/list \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_list.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/list.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCommandQuery.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCommandQuery.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/any \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlData.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlData.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/cstring \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLContentTypes.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRelationships.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLConstants.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLSheet.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLColor.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLColumn.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
- D:/Projects/ReadExcelOpenXLSX/include/csv_reader.h \
- D:/Projects/ReadExcelOpenXLSX/include/help_functions.h \
- D:/Projects/ReadExcelOpenXLSX/include/parse_configurations.h \
- D:/Projects/ReadExcelOpenXLSX/include/line_formater.h \
- D:/Projects/ReadExcelOpenXLSX/include/csv_reader.h \
- D:/Projects/ReadExcelOpenXLSX/include/help_functions.h \
- D:/Projects/ReadExcelOpenXLSX/include/json.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/functional \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/std_function.h \
- C:/msys64/ucrt64/include/c++/13.2.0/array \
- C:/msys64/ucrt64/include/c++/13.2.0/compare \
- C:/msys64/ucrt64/include/c++/13.2.0/iterator \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/forward_list \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/forward_list.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/forward_list.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/valarray \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLContentTypes.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRelationships.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLFormula.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRowData.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLConstants.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLSheet.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLColor.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLColumn.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRow.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/csv_reader.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/help_functions.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h \
@@ -483,6 +468,23 @@ CMakeFiles/ReadExcel.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/stack \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_stack.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/parse_configurations.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/line_formater.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/csv_reader.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/help_functions.h \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/include/json.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/functional \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_function.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/array \
+ C:/msys64/ucrt64/include/c++/13.2.0/compare \
+ C:/msys64/ucrt64/include/c++/13.2.0/iterator \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/forward_list \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/forward_list.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/forward_list.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/valarray \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/valarray_array.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/valarray_array.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/valarray_before.h \

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Projects/ReadExcelOpenXLSX
+# Install script for directory: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/cmake_install.cmake")
+  include("C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Projects/ReadExcelOpenXLSX/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

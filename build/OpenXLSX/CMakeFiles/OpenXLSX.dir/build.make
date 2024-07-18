@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\ReadExcelOpenXLSX
+CMAKE_SOURCE_DIR = C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\ReadExcelOpenXLSX\build
+CMAKE_BINARY_DIR = C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build
 
 # Include any dependencies generated for this target.
 include OpenXLSX/CMakeFiles/OpenXLSX.dir/depend.make
@@ -70,318 +70,318 @@ include OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLCell.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLCell.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCell.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCell.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellIterator.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellIterator.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellIterator.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellIterator.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellRange.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellRange.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellRange.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellRange.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellReference.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellReference.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellReference.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellReference.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellValue.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLCellValue.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp > CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLCellValue.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLCellValue.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLColor.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLColor.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp > CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp > CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColor.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLColor.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLColumn.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLColumn.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp > CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp > CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLColumn.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLColumn.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLContentTypes.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLContentTypes.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp > CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp > CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLContentTypes.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLContentTypes.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLDateTime.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLDateTime.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp > CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp > CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDateTime.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLDateTime.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLDocument.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLDocument.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp > CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp > CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLDocument.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLDocument.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLFormula.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLFormula.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp > CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp > CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLFormula.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLFormula.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLProperties.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLProperties.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp > CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp > CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLProperties.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLRelationships.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLRelationships.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRelationships.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRelationships.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLRow.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLRow.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRow.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRow.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLRowData.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLRowData.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp > CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLRowData.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLRowData.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp > CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp > CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSharedStrings.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLSharedStrings.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLSheet.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLSheet.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp > CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp > CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLSheet.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLSheet.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLWorkbook.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLWorkbook.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp > CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp > CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLWorkbook.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLWorkbook.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLXmlData.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLXmlData.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp > CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp > CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlData.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLXmlData.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLXmlFile.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLXmlFile.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp > CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp > CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLXmlFile.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLXmlFile.cpp.s
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/includes_CXX.rsp
-OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj: D:/Projects/ReadExcelOpenXLSX/OpenXLSX/sources/XLZipArchive.cpp
+OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj: C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/sources/XLZipArchive.cpp
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj: OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.obj -c D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj -MF CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.obj.d -o CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.obj -c C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp > CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.i
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp > CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.i
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.s
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLZipArchive.cpp -o CMakeFiles\OpenXLSX.dir\sources\XLZipArchive.cpp.s
 
 # Object files for target OpenXLSX
 OpenXLSX_OBJECTS = \
@@ -433,19 +433,19 @@ output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.obj
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.obj
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make
 output/libOpenXLSX.a: OpenXLSX/CMakeFiles/OpenXLSX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Projects\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library ..\output\libOpenXLSX.a"
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles\OpenXLSX.dir\cmake_clean_target.cmake
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenXLSX.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library ..\output\libOpenXLSX.a"
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles\OpenXLSX.dir\cmake_clean_target.cmake
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenXLSX.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 OpenXLSX/CMakeFiles/OpenXLSX.dir/build: output/libOpenXLSX.a
 .PHONY : OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/clean:
-	cd /d D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles\OpenXLSX.dir\cmake_clean.cmake
+	cd /d C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles\OpenXLSX.dir\cmake_clean.cmake
 .PHONY : OpenXLSX/CMakeFiles/OpenXLSX.dir/clean
 
 OpenXLSX/CMakeFiles/OpenXLSX.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\ReadExcelOpenXLSX D:\Projects\ReadExcelOpenXLSX\OpenXLSX D:\Projects\ReadExcelOpenXLSX\build D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX D:\Projects\ReadExcelOpenXLSX\build\OpenXLSX\CMakeFiles\OpenXLSX.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\build\OpenXLSX\CMakeFiles\OpenXLSX.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : OpenXLSX/CMakeFiles/OpenXLSX.dir/depend
 

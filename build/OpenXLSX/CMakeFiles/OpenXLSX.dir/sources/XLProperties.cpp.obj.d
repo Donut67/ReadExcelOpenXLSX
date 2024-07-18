@@ -1,7 +1,7 @@
 OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: \
- D:\Projects\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugiconfig.hpp \
+ C:\Users\adri2\Documents\GitHub\ReadExcelOpenXLSX\OpenXLSX\sources\XLProperties.cpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugiconfig.hpp \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -125,8 +125,8 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.cpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.cpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/external/pugixml/pugixml.hpp \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h \
  C:/msys64/ucrt64/include/assert.h \
@@ -145,7 +145,7 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLDocument.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
@@ -171,13 +171,13 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multimap.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
- D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLCommandQuery.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX/OpenXLSX-Exports.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLCommandQuery.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/any \
  C:/msys64/ucrt64/include/c++/13.2.0/variant \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/parse_numbers.h \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlData.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlData.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/cstring \
  C:/msys64/ucrt64/include/c++/13.2.0/memory \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
@@ -194,20 +194,20 @@ OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/sstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLContentTypes.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLContentTypes.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/vector \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLXmlParser.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/deque \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_deque.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/deque.tcc \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLRelationships.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
- D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLException.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLRelationships.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
+ C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers/XLProperties.hpp

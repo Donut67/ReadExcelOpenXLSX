@@ -51,7 +51,7 @@ add_library(OpenXLSX::OpenXLSX STATIC IMPORTED)
 
 set_target_properties(OpenXLSX::OpenXLSX PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OPENXLSX_STATIC_DEFINE"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/Projects/ReadExcelOpenXLSX/OpenXLSX;D:/Projects/ReadExcelOpenXLSX/OpenXLSX/headers;D:/Projects/ReadExcelOpenXLSX/build/OpenXLSX"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX;C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/OpenXLSX/headers;C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/OpenXLSX"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Zippy>;\$<LINK_ONLY:PugiXML>;\$<LINK_ONLY:NoWide>"
 )
 
@@ -59,7 +59,7 @@ set_target_properties(OpenXLSX::OpenXLSX PROPERTIES
 set_property(TARGET OpenXLSX::OpenXLSX APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(OpenXLSX::OpenXLSX PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/Projects/ReadExcelOpenXLSX/build/output/libOpenXLSX.a"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/adri2/Documents/GitHub/ReadExcelOpenXLSX/build/output/libOpenXLSX.a"
   )
 
 # This file does not depend on other imported targets which have
